@@ -1,0 +1,4 @@
+system,Recall@5,Recall@5_std,MRR,MRR_std,nDCG,nDCG_std,retrieval_evaluated,retrieval_evaluated_std
+bm25_retrieval_cv,1.0,0.0,0.9375,0.125,0.946330214869415,0.0619725297849852,2.0,0.0
+dense_retrieval_cv,1.0,0.0,0.875,0.25,0.8926604297388301,0.12394505956997047,2.0,0.0
+hybrid_retrieval_cv,1.0,0.0,0.9375,0.125,0.9194953223041226,0.05366978513058496,2.0,0.0

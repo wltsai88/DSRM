@@ -1,0 +1,5 @@
+Safety data sheet minimum requirements.
+
+Every transferable material or process package must include an SDS or equivalent safety documentation.
+Packages with missing SDS, no safety data sheet, or incomplete hazard disclosures are non-compliant
+until corrected. Safety documentation must accompany domestic and international transfers.

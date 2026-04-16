@@ -1,0 +1,8 @@
+ISO/ASTM 52900 baseline guidance for additive manufacturing documentation.
+
+Each distributed manufacturing asset should include enough metadata to identify the material family,
+process class, and intended usage context. Documentation should be internally consistent and traceable.
+
+When a package is duplicated or reissued, the content hash and revision chain should remain consistent.
+Duplicate hash anomalies or incomplete traceability records should be treated as compliance risks and
+reviewed before release.

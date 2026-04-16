@@ -1,0 +1,65 @@
+system,fold,asset_id,y_true,y_pred,score,details
+bm25_retrieval_cv,1,A0005,1,,,SDS_minimum_requirements:4.2889 | license_template_quota:3.4795 | ISO_ASTM_52900:0.4021 | export_control_rule_A:0.3266
+bm25_retrieval_cv,1,A0006,0,,,export_control_rule_A:4.4044 | SDS_minimum_requirements:3.9257 | ISO_ASTM_52900:1.1312 | license_template_quota:0.4035
+bm25_retrieval_cv,2,A0001,1,,,license_template_quota:4.5518 | SDS_minimum_requirements:1.4355 | export_control_rule_A:0.5943 | ISO_ASTM_52900:0.5375
+bm25_retrieval_cv,2,A0002,0,,,SDS_minimum_requirements:6.4606 | export_control_rule_A:4.9398 | ISO_ASTM_52900:3.2162 | license_template_quota:0.7395
+bm25_retrieval_cv,3,A0007,1,,,SDS_minimum_requirements:4.2889 | license_template_quota:3.1163 | ISO_ASTM_52900:2.2161 | export_control_rule_A:1.3100
+bm25_retrieval_cv,3,A0008,0,,,SDS_minimum_requirements:5.1932 | ISO_ASTM_52900:4.1657 | export_control_rule_A:2.9142 | license_template_quota:0.5715
+bm25_retrieval_cv,4,A0003,1,,,SDS_minimum_requirements:4.2889 | license_template_quota:3.4795 | ISO_ASTM_52900:1.1312 | export_control_rule_A:0.4310
+bm25_retrieval_cv,4,A0004,0,,,ISO_ASTM_52900:2.9453 | SDS_minimum_requirements:2.5077 | export_control_rule_A:2.3522 | license_template_quota:0.5715
+dense_retrieval_cv,1,A0005,1,,,ISO_ASTM_52900:0.6284 | license_template_quota:0.5990 | SDS_minimum_requirements:0.5816 | export_control_rule_A:0.4688
+dense_retrieval_cv,1,A0006,0,,,SDS_minimum_requirements:0.7025 | export_control_rule_A:0.6690 | ISO_ASTM_52900:0.5754 | license_template_quota:0.5490
+dense_retrieval_cv,2,A0001,1,,,license_template_quota:0.6174 | ISO_ASTM_52900:0.5555 | SDS_minimum_requirements:0.5165 | export_control_rule_A:0.4440
+dense_retrieval_cv,2,A0002,0,,,SDS_minimum_requirements:0.6403 | ISO_ASTM_52900:0.6354 | export_control_rule_A:0.5896 | license_template_quota:0.4780
+dense_retrieval_cv,3,A0007,1,,,ISO_ASTM_52900:0.6472 | license_template_quota:0.6069 | SDS_minimum_requirements:0.5574 | export_control_rule_A:0.4740
+dense_retrieval_cv,3,A0008,0,,,ISO_ASTM_52900:0.6731 | SDS_minimum_requirements:0.6714 | export_control_rule_A:0.6177 | license_template_quota:0.5225
+dense_retrieval_cv,4,A0003,1,,,license_template_quota:0.6463 | SDS_minimum_requirements:0.6152 | ISO_ASTM_52900:0.6079 | export_control_rule_A:0.5046
+dense_retrieval_cv,4,A0004,0,,,SDS_minimum_requirements:0.6898 | ISO_ASTM_52900:0.6618 | export_control_rule_A:0.6234 | license_template_quota:0.5535
+hybrid_retrieval_cv,1,A0005,1,,,SDS_minimum_requirements:0.8532 | license_template_quota:0.8057 | ISO_ASTM_52900:0.5095 | export_control_rule_A:0.0000
+hybrid_retrieval_cv,1,A0006,0,,,SDS_minimum_requirements:0.9402 | export_control_rule_A:0.8909 | ISO_ASTM_52900:0.1767 | license_template_quota:0.0000
+hybrid_retrieval_cv,2,A0001,1,,,license_template_quota:1.0000 | ISO_ASTM_52900:0.3214 | SDS_minimum_requirements:0.3208 | export_control_rule_A:0.0071
+hybrid_retrieval_cv,2,A0002,0,,,SDS_minimum_requirements:1.0000 | export_control_rule_A:0.7108 | ISO_ASTM_52900:0.7013 | license_template_quota:0.0000
+hybrid_retrieval_cv,3,A0007,1,,,SDS_minimum_requirements:0.7406 | license_template_quota:0.6869 | ISO_ASTM_52900:0.6521 | export_control_rule_A:0.0000
+hybrid_retrieval_cv,3,A0008,0,,,SDS_minimum_requirements:0.9944 | ISO_ASTM_52900:0.8888 | export_control_rule_A:0.5696 | license_template_quota:0.0000
+hybrid_retrieval_cv,4,A0003,1,,,license_template_quota:0.8951 | SDS_minimum_requirements:0.8901 | ISO_ASTM_52900:0.4551 | export_control_rule_A:0.0000
+hybrid_retrieval_cv,4,A0004,0,,,SDS_minimum_requirements:0.9078 | ISO_ASTM_52900:0.8974 | export_control_rule_A:0.6316 | license_template_quota:0.0000
+rules_cv,1,A0005,1,1,0.05,
+rules_cv,1,A0006,0,0,0.050000000000000044,"restricted alloy, export controlled, sanctioned destination, no safety data sheet"
+rules_cv,2,A0001,1,1,0.05,
+rules_cv,2,A0002,0,0,0.050000000000000044,"export controlled, sanctioned destination, no safety data sheet"
+rules_cv,3,A0007,1,1,0.05,
+rules_cv,3,A0008,0,0,0.050000000000000044,"duplicate hash, export controlled"
+rules_cv,4,A0003,1,1,0.05,
+rules_cv,4,A0004,0,0,0.050000000000000044,"restricted alloy, duplicate hash, missing sds"
+tfidf_cv,1,A0005,1,1,0.5462267548714389,
+tfidf_cv,1,A0006,0,0,0.43906460968816186,
+tfidf_cv,2,A0001,1,1,0.5563779410644576,
+tfidf_cv,2,A0002,0,0,0.4725038972617121,
+tfidf_cv,3,A0007,1,0,0.49906182031345964,
+tfidf_cv,3,A0008,0,0,0.4458698018418913,
+tfidf_cv,4,A0003,1,1,0.5057725758143616,
+tfidf_cv,4,A0004,0,0,0.455489067546501,
+bm25_rag_cv,1,A0005,1,1,0.5070611039079591,SDS_minimum_requirements:4.2889 | license_template_quota:3.4795 | ISO_ASTM_52900:0.4021 | export_control_rule_A:0.3266
+bm25_rag_cv,1,A0006,0,0,0.49119624532105055,export_control_rule_A:4.4044 | SDS_minimum_requirements:3.9257 | ISO_ASTM_52900:1.1312 | license_template_quota:0.4035
+bm25_rag_cv,2,A0001,1,1,0.5059856589984079,license_template_quota:4.5518 | SDS_minimum_requirements:1.4355 | export_control_rule_A:0.5943 | ISO_ASTM_52900:0.5375
+bm25_rag_cv,2,A0002,0,0,0.4953819796206934,SDS_minimum_requirements:6.4606 | export_control_rule_A:4.9398 | ISO_ASTM_52900:3.2162 | license_template_quota:0.7395
+bm25_rag_cv,3,A0007,1,0,0.4994124976712537,SDS_minimum_requirements:4.2889 | license_template_quota:3.1163 | ISO_ASTM_52900:2.2161 | export_control_rule_A:1.3100
+bm25_rag_cv,3,A0008,0,0,0.49197145851765983,SDS_minimum_requirements:5.1932 | ISO_ASTM_52900:4.1657 | export_control_rule_A:2.9142 | license_template_quota:0.5715
+bm25_rag_cv,4,A0003,1,0,0.49919665601715607,SDS_minimum_requirements:4.2889 | license_template_quota:3.4795 | ISO_ASTM_52900:1.1312 | export_control_rule_A:0.4310
+bm25_rag_cv,4,A0004,0,0,0.4923909527225194,ISO_ASTM_52900:2.9453 | SDS_minimum_requirements:2.5077 | export_control_rule_A:2.3522 | license_template_quota:0.5715
+dense_rag_cv,1,A0005,1,1,0.507043405692294,ISO_ASTM_52900:0.6284 | license_template_quota:0.5990 | SDS_minimum_requirements:0.5816 | export_control_rule_A:0.4688
+dense_rag_cv,1,A0006,0,0,0.49286692701127216,SDS_minimum_requirements:0.7025 | export_control_rule_A:0.6690 | ISO_ASTM_52900:0.5754 | license_template_quota:0.5490
+dense_rag_cv,2,A0001,1,1,0.5069184813634862,license_template_quota:0.6174 | ISO_ASTM_52900:0.5555 | SDS_minimum_requirements:0.5165 | export_control_rule_A:0.4440
+dense_rag_cv,2,A0002,0,0,0.4946294008437923,SDS_minimum_requirements:0.6403 | ISO_ASTM_52900:0.6354 | export_control_rule_A:0.5896 | license_template_quota:0.4780
+dense_rag_cv,3,A0007,1,0,0.4985375170460324,ISO_ASTM_52900:0.6472 | license_template_quota:0.6069 | SDS_minimum_requirements:0.5574 | export_control_rule_A:0.4740
+dense_rag_cv,3,A0008,0,0,0.49312482706485683,ISO_ASTM_52900:0.6731 | SDS_minimum_requirements:0.6714 | export_control_rule_A:0.6177 | license_template_quota:0.5225
+dense_rag_cv,4,A0003,1,0,0.49720928036183293,license_template_quota:0.6463 | SDS_minimum_requirements:0.6152 | ISO_ASTM_52900:0.6079 | export_control_rule_A:0.5046
+dense_rag_cv,4,A0004,0,0,0.4898958931508908,SDS_minimum_requirements:0.6898 | ISO_ASTM_52900:0.6618 | export_control_rule_A:0.6234 | license_template_quota:0.5535
+hybrid_rag_cv,1,A0005,1,1,0.506168639981236,SDS_minimum_requirements:0.8532 | license_template_quota:0.8057 | ISO_ASTM_52900:0.5095 | export_control_rule_A:0.0000
+hybrid_rag_cv,1,A0006,0,0,0.4908935329667106,SDS_minimum_requirements:0.9402 | export_control_rule_A:0.8909 | ISO_ASTM_52900:0.1767 | license_template_quota:0.0000
+hybrid_rag_cv,2,A0001,1,1,0.5078912637098684,license_template_quota:1.0000 | ISO_ASTM_52900:0.3214 | SDS_minimum_requirements:0.3208 | export_control_rule_A:0.0071
+hybrid_rag_cv,2,A0002,0,0,0.4943389059208989,SDS_minimum_requirements:1.0000 | export_control_rule_A:0.7108 | ISO_ASTM_52900:0.7013 | license_template_quota:0.0000
+hybrid_rag_cv,3,A0007,1,0,0.4980007509377378,SDS_minimum_requirements:0.7406 | license_template_quota:0.6869 | ISO_ASTM_52900:0.6521 | export_control_rule_A:0.0000
+hybrid_rag_cv,3,A0008,0,0,0.4914543204690029,SDS_minimum_requirements:0.9944 | ISO_ASTM_52900:0.8888 | export_control_rule_A:0.5696 | license_template_quota:0.0000
+hybrid_rag_cv,4,A0003,1,0,0.4973175054208769,license_template_quota:0.8951 | SDS_minimum_requirements:0.8901 | ISO_ASTM_52900:0.4551 | export_control_rule_A:0.0000
+hybrid_rag_cv,4,A0004,0,0,0.4919477366846484,SDS_minimum_requirements:0.9078 | ISO_ASTM_52900:0.8974 | export_control_rule_A:0.6316 | license_template_quota:0.0000

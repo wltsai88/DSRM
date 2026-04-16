@@ -1,0 +1,12 @@
+{
+  "cost_rows": 25,
+  "negotiation_rows": 60,
+  "files": [
+    "cost_sensitivity.csv",
+    "fig3_gas_savings_vs_invalid_ratio.png",
+    "negotiation_latency.csv",
+    "negotiation_summary.csv",
+    "fig4_latency_vs_concurrency.png",
+    "fig5_agreement_vs_concurrency.png"
+  ]
+}

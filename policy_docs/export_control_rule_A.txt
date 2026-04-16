@@ -1,0 +1,5 @@
+Export control screening rule A.
+
+Assets marked export controlled, restricted, forbidden for export, or destined for a sanctioned destination
+require escalation and must not be released through the standard compliant channel. Such assets should be
+classified as non-compliant for automated approval unless an explicit exception exists.

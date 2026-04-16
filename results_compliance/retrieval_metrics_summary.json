@@ -1,0 +1,35 @@
+[
+  {
+    "system": "bm25_retrieval_cv",
+    "Recall@5": 1.0,
+    "Recall@5_std": 0.0,
+    "MRR": 0.9375,
+    "MRR_std": 0.125,
+    "nDCG": 0.9463302149,
+    "nDCG_std": 0.0619725298,
+    "retrieval_evaluated": 2.0,
+    "retrieval_evaluated_std": 0.0
+  },
+  {
+    "system": "dense_retrieval_cv",
+    "Recall@5": 1.0,
+    "Recall@5_std": 0.0,
+    "MRR": 0.875,
+    "MRR_std": 0.25,
+    "nDCG": 0.8926604297,
+    "nDCG_std": 0.1239450596,
+    "retrieval_evaluated": 2.0,
+    "retrieval_evaluated_std": 0.0
+  },
+  {
+    "system": "hybrid_retrieval_cv",
+    "Recall@5": 1.0,
+    "Recall@5_std": 0.0,
+    "MRR": 0.9375,
+    "MRR_std": 0.125,
+    "nDCG": 0.9194953223,
+    "nDCG_std": 0.0536697851,
+    "retrieval_evaluated": 2.0,
+    "retrieval_evaluated_std": 0.0
+  }
+]

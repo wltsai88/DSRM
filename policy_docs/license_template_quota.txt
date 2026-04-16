@@ -1,0 +1,5 @@
+License template quota requirements.
+
+Compliant commercial and research licenses should define an explicit unit cap, territorial scope,
+and redistribution conditions. A bounded license such as 50, 100, 250, or 500 units with domestic
+or approved-use wording is acceptable for this benchmark starter dataset.
