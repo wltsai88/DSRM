@@ -1,140 +1,22 @@
-# Experiment starter kit
+# An Agentic Retrieval-Augmented Large Language Model Framework for Trustworthy Governance in Materials Informatics
 
-## Files
 
-- `run_compliance_benchmark.py`
-  - Evaluates rule-based, TF-IDF, BM25, dense retrieval, hybrid retrieval, and optional LLM-backed RAG compliance classification.
-  - Also computes retrieval metrics when gold evidence doc IDs are available.
 
-- `simulate_negotiation_and_chain.py`
-  - Simulates on-chain/off-chain cost, latency, agreement rate, social welfare, and fairness under different invalid ratios and concurrent loads.
-  - Useful for turning the current single-point results into parameter sweeps and sensitivity analyses.
+## Repository Structure
 
-- `requirements.txt`
-  - Python dependencies.
+* `data/synthetic\_materials\_2000.json`: Complete benchmark of 2,000 synthetic digital material asset records (1,600 compliant and 400 non-compliant across 4 anomaly families).
+* `data/kb\_standards.json`: Curated industrial standards knowledge base passages (ISO/ASTM 52900, ISO/ASTM 52904, GHS/ISO 11014, EAR/ITAR export controls).
+* `evaluate\_framework.py`: Exact evaluation script reproducing Table 7 (confusion matrix, Accuracy, Precision, Recall, F1-score, Rules-Only baseline comparison), Figure 3 (EVM gas cost calculation at 68 gas/byte), and Figure 4 (2,880x latency analysis).
 
-## Suggested dataset format
+## Exact Experimental Parameters (Aligned with Manuscript Table 6)
 
-### 1) Policy / standards corpus
+* **Dataset Size**: 2,000 synthetic records (`1,600` compliant / `400` non-compliant)
+* **Embedding Model**: `text-embedding-ada-002` (1,536 dimensions)
+* **Vector Retrieval**: FAISS `IndexFlatIP` (cosine similarity), `top-k = 3`
+* **Blockchain Simulation**: EVM-compatible permissioned consortium ledger (`Gas\_base = 21,000`, `Gas\_byte = 68 gas/byte`, mean ABI payload = `400 bytes`, `48,200 gas/tx`)
 
-Create a directory `policy_docs/` with one `.txt` or `.md` file per document. Example:
-
-```text
-policy_docs/
-  ISO_ASTM_52900.txt
-  export_control_rule_A.txt
-  SDS_minimum_requirements.txt
-  license_template_quota.txt
-```
-
-### 2) Asset benchmark
-
-Create a JSONL file `assets.jsonl`.
-Each line should look like:
-
-```json
-{
-  "asset_id": "A0001",
-  "text": "Ti-6Al-4V powder bed fusion design. Includes composition, laser power, scan speed, heat treatment, and license cap of 500 units.",
-  "label": 1,
-  "material_family": "titanium_alloy",
-  "evidence_doc_ids": ["SDS_minimum_requirements", "license_template_quota"],
-  "meta": {
-    "origin": "MaterialsProject/JARVIS/manual",
-    "jurisdiction": "US",
-    "version": "2026-01"
-  }
-}
-```
-
-Label meaning:
-- `1` = compliant
-- `0` = non-compliant
-
-## Recommended experiments for the revised paper
-
-### A. Compliance oracle benchmark
-
-Run at least these baselines:
-
-1. Keyword/rule baseline
-2. TF-IDF + Logistic Regression
-3. BM25-only retrieval + heuristic decision
-4. Dense retrieval + heuristic decision
-5. Hybrid retrieval + heuristic decision
-6. LLM-only (no retrieval)
-7. Vanilla RAG
-8. Proposed agentic RAG with policy checks / HITL threshold
-
-Suggested command:
+## Quick Start
 
 ```bash
-python run_compliance_benchmark.py \
-  --assets assets.jsonl \
-  --policy_dir policy_docs \
-  --out_dir results_compliance \
-  --dense_model BAAI/bge-small-en-v1.5 \
-  --top_k 5
-```
-
-Optional OpenAI / compatible endpoint:
-
-```bash
-export OPENAI_API_KEY=...
-python run_compliance_benchmark.py \
-  --assets assets.jsonl \
-  --policy_dir policy_docs \
-  --out_dir results_compliance_openai \
-  --llm_backend openai \
-  --llm_model gpt-4.1-mini \
-  --top_k 5
-```
-
-### B. Sensitivity / ablation study
-
-Sweep these:
-- `top_k`: 1, 3, 5, 10
-- chunk size: 256, 512, 1024 tokens
-- invalid ratio: 5%, 10%, 20%, 30%, 40%
-- KB size: 500, 1000, 2500, 5000+
-- confidence threshold for HITL escalation
-
-### C. Negotiation + blockchain study
-
-```bash
-python simulate_negotiation_and_chain.py --out_dir results_chain
-```
-
-This produces:
-- gas cost vs invalid ratio
-- latency vs concurrency
-- agreement rate
-- social welfare
-- Jain fairness index
-
-## What to report in the paper
-
-For `run_compliance_benchmark.py`, report:
-- Accuracy, Precision, Recall, F1, AUROC
-- Recall@k, MRR, nDCG (if evidence labels exist)
-- mean latency and cost per query
-- category-wise errors by anomaly type
-
-For `simulate_negotiation_and_chain.py`, report:
-- mean / std across multiple random seeds
-- sensitivity curves instead of a single best number
-- comparison against at least three baselines:
-  - on-chain-only
-  - centralized pre-check + chain logging
-  - proposed off-chain intelligent pre-validation
-
-## Paper-writing advice
-
-A strong resubmission should state clearly:
-- exact corpus sources
-- exact model names / versions
-- prompt templates
-- random seeds
-- hardware
-- code / data availability statement
+python evaluate\_framework.py
 
