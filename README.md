@@ -1,13 +1,4 @@
-# CMC revision experiment starter kit
-
-This folder contains a lightweight, reproducible starter kit to help extend the manuscript
-"Agentic Retrieval-Augmented Large Language Model Framework for Trustworthy Governance in Materials Informatics and Distributed Manufacturing".
-
-It is designed to strengthen three weak points that often trigger desk rejection or early editorial decline:
-
-1. **No strong baselines** -> add retrieval and compliance baselines.
-2. **Only synthetic claims** -> run controlled sensitivity / ablation studies.
-3. **Weak reproducibility** -> export machine-readable results and plots.
+# Experiment starter kit
 
 ## Files
 
