@@ -1,0 +1,702 @@
+[
+  {
+    "doc_id": "STD-ISO-ASTM-52900-001",
+    "standard": "ISO/ASTM 52900:2021",
+    "section": "3.1.2",
+    "title": "Additive Manufacturing General Principles and Terminology",
+    "text": "All digital material asset records submitted for distributed additive manufacturing must specify standard terminology, valid process parameters (laser power 100-500W, scan speed 200-2000 mm/s, layer thickness 20-100 um), and verified cryptographic content hashes."
+  },
+  {
+    "doc_id": "STD-ISO-ASTM-52904-002",
+    "standard": "ISO/ASTM 52904:2019",
+    "section": "4.3",
+    "title": "Metal Powder Bed Fusion Process Qualification for Ti-6Al-4V and Aerospace Alloys",
+    "text": "Powder bed fusion (L-PBF/EB-PBF) of titanium and nickel superalloys for aerospace or medical applications requires a verified Safety Data Sheet (SDS), inert gas atmosphere specification, and thermal sintering range between 850\u00b0C and 1650\u00b0C."
+  },
+  {
+    "doc_id": "STD-EXPORT-EAR-ITAR-003",
+    "standard": "EAR/ITAR Dual-Use Materials Control Policy",
+    "section": "7.2",
+    "title": "Export Control and Restricted Chemical/Nuclear Precursors",
+    "text": "Material compositions containing restricted energetic, fissile, or dual-use military precursors\u2014including Beryllium-Oxide-Weapons-Grade, Depleted-Uranium- Matrix, Thorium-Doped-Superalloy, or Plutonium-Trace-Catalyst\u2014or tagged under ITAR-Restricted-Military without export clearance are strictly non-compliant and must be rejected prior to ledger settlement."
+  },
+  {
+    "doc_id": "STD-OSHA-GHS-SDS-004",
+    "standard": "GHS/ISO 11014 Safety Documentation Policy",
+    "section": "2.1",
+    "title": "Mandatory Safety Data Sheet (SDS) Verification",
+    "text": "Every digital material design asset involving reactive metal powders, photopolymer resins, or carbon-nanotube composites must attach a valid, non-expired Safety Data Sheet (sds_status = 'Verified') and hazard handling certification."
+  },
+  {
+    "doc_id": "STD-CONSORTIUM-IP-005",
+    "standard": "Consortium Provenance and Anti-Duplication Protocol",
+    "section": "5.4",
+    "title": "Cryptographic Hash Uniqueness and Provenance Registry",
+    "text": "Each submitted digital material twin must carry a unique SHA-256 content_hash not previously registered under a different asset identifier. Duplicate content hashes indicate unauthorized replication or replay submission and must be rejected."
+  },
+  {
+    "doc_id": "STD-SEMANTIC-HAZARD-006",
+    "standard": "ISO/ASTM 52920:2023",
+    "section": "6.1",
+    "title": "Contextual Semantic Compliance for Unlisted Precursor Synonyms",
+    "text": "Submissions employing indirect chemical nomenclature, paraphrased export-controlled alloy descriptions (e.g., 'high-density actinide-stabilized ballistic matrix' or 'sub-micron glucinum-oxide thermal barrier without respiratory containment'), or incompatible license-to-jurisdiction bindings violate semantic compliance even when literal keyword blacklists are not triggered."
+  },
+  {
+    "doc_id": "STD-MAT-INF-007",
+    "standard": "ISO/ASTM 52907",
+    "section": "8.3",
+    "title": "Material Process Specification and Quality Assurance Clause 7",
+    "text": "Standard quality control guidelines for batch #7 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-008",
+    "standard": "ISO/ASTM 52908",
+    "section": "9.4",
+    "title": "Material Process Specification and Quality Assurance Clause 8",
+    "text": "Standard quality control guidelines for batch #8 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-009",
+    "standard": "ISO/ASTM 52909",
+    "section": "1.5",
+    "title": "Material Process Specification and Quality Assurance Clause 9",
+    "text": "Standard quality control guidelines for batch #9 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-010",
+    "standard": "ISO/ASTM 52910",
+    "section": "2.1",
+    "title": "Material Process Specification and Quality Assurance Clause 10",
+    "text": "Standard quality control guidelines for batch #10 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-011",
+    "standard": "ISO/ASTM 52911",
+    "section": "3.2",
+    "title": "Material Process Specification and Quality Assurance Clause 11",
+    "text": "Standard quality control guidelines for batch #11 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-012",
+    "standard": "ISO/ASTM 52912",
+    "section": "4.3",
+    "title": "Material Process Specification and Quality Assurance Clause 12",
+    "text": "Standard quality control guidelines for batch #12 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-013",
+    "standard": "ISO/ASTM 52913",
+    "section": "5.4",
+    "title": "Material Process Specification and Quality Assurance Clause 13",
+    "text": "Standard quality control guidelines for batch #13 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-014",
+    "standard": "ISO/ASTM 52914",
+    "section": "6.5",
+    "title": "Material Process Specification and Quality Assurance Clause 14",
+    "text": "Standard quality control guidelines for batch #14 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-015",
+    "standard": "ISO/ASTM 52915",
+    "section": "7.1",
+    "title": "Material Process Specification and Quality Assurance Clause 15",
+    "text": "Standard quality control guidelines for batch #15 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-016",
+    "standard": "ISO/ASTM 52916",
+    "section": "8.2",
+    "title": "Material Process Specification and Quality Assurance Clause 16",
+    "text": "Standard quality control guidelines for batch #16 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-017",
+    "standard": "ISO/ASTM 52917",
+    "section": "9.3",
+    "title": "Material Process Specification and Quality Assurance Clause 17",
+    "text": "Standard quality control guidelines for batch #17 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-018",
+    "standard": "ISO/ASTM 52918",
+    "section": "1.4",
+    "title": "Material Process Specification and Quality Assurance Clause 18",
+    "text": "Standard quality control guidelines for batch #18 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-019",
+    "standard": "ISO/ASTM 52919",
+    "section": "2.5",
+    "title": "Material Process Specification and Quality Assurance Clause 19",
+    "text": "Standard quality control guidelines for batch #19 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-020",
+    "standard": "ISO/ASTM 52920",
+    "section": "3.1",
+    "title": "Material Process Specification and Quality Assurance Clause 20",
+    "text": "Standard quality control guidelines for batch #20 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-021",
+    "standard": "ISO/ASTM 52921",
+    "section": "4.2",
+    "title": "Material Process Specification and Quality Assurance Clause 21",
+    "text": "Standard quality control guidelines for batch #21 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-022",
+    "standard": "ISO/ASTM 52922",
+    "section": "5.3",
+    "title": "Material Process Specification and Quality Assurance Clause 22",
+    "text": "Standard quality control guidelines for batch #22 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-023",
+    "standard": "ISO/ASTM 52923",
+    "section": "6.4",
+    "title": "Material Process Specification and Quality Assurance Clause 23",
+    "text": "Standard quality control guidelines for batch #23 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-024",
+    "standard": "ISO/ASTM 52924",
+    "section": "7.5",
+    "title": "Material Process Specification and Quality Assurance Clause 24",
+    "text": "Standard quality control guidelines for batch #24 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-025",
+    "standard": "ISO/ASTM 52925",
+    "section": "8.1",
+    "title": "Material Process Specification and Quality Assurance Clause 25",
+    "text": "Standard quality control guidelines for batch #25 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-026",
+    "standard": "ISO/ASTM 52926",
+    "section": "9.2",
+    "title": "Material Process Specification and Quality Assurance Clause 26",
+    "text": "Standard quality control guidelines for batch #26 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-027",
+    "standard": "ISO/ASTM 52927",
+    "section": "1.3",
+    "title": "Material Process Specification and Quality Assurance Clause 27",
+    "text": "Standard quality control guidelines for batch #27 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-028",
+    "standard": "ISO/ASTM 52928",
+    "section": "2.4",
+    "title": "Material Process Specification and Quality Assurance Clause 28",
+    "text": "Standard quality control guidelines for batch #28 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-029",
+    "standard": "ISO/ASTM 52929",
+    "section": "3.5",
+    "title": "Material Process Specification and Quality Assurance Clause 29",
+    "text": "Standard quality control guidelines for batch #29 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-030",
+    "standard": "ISO/ASTM 52900",
+    "section": "4.1",
+    "title": "Material Process Specification and Quality Assurance Clause 30",
+    "text": "Standard quality control guidelines for batch #30 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-031",
+    "standard": "ISO/ASTM 52901",
+    "section": "5.2",
+    "title": "Material Process Specification and Quality Assurance Clause 31",
+    "text": "Standard quality control guidelines for batch #31 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-032",
+    "standard": "ISO/ASTM 52902",
+    "section": "6.3",
+    "title": "Material Process Specification and Quality Assurance Clause 32",
+    "text": "Standard quality control guidelines for batch #32 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-033",
+    "standard": "ISO/ASTM 52903",
+    "section": "7.4",
+    "title": "Material Process Specification and Quality Assurance Clause 33",
+    "text": "Standard quality control guidelines for batch #33 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-034",
+    "standard": "ISO/ASTM 52904",
+    "section": "8.5",
+    "title": "Material Process Specification and Quality Assurance Clause 34",
+    "text": "Standard quality control guidelines for batch #34 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-035",
+    "standard": "ISO/ASTM 52905",
+    "section": "9.1",
+    "title": "Material Process Specification and Quality Assurance Clause 35",
+    "text": "Standard quality control guidelines for batch #35 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-036",
+    "standard": "ISO/ASTM 52906",
+    "section": "1.2",
+    "title": "Material Process Specification and Quality Assurance Clause 36",
+    "text": "Standard quality control guidelines for batch #36 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-037",
+    "standard": "ISO/ASTM 52907",
+    "section": "2.3",
+    "title": "Material Process Specification and Quality Assurance Clause 37",
+    "text": "Standard quality control guidelines for batch #37 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-038",
+    "standard": "ISO/ASTM 52908",
+    "section": "3.4",
+    "title": "Material Process Specification and Quality Assurance Clause 38",
+    "text": "Standard quality control guidelines for batch #38 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-039",
+    "standard": "ISO/ASTM 52909",
+    "section": "4.5",
+    "title": "Material Process Specification and Quality Assurance Clause 39",
+    "text": "Standard quality control guidelines for batch #39 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-040",
+    "standard": "ISO/ASTM 52910",
+    "section": "5.1",
+    "title": "Material Process Specification and Quality Assurance Clause 40",
+    "text": "Standard quality control guidelines for batch #40 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-041",
+    "standard": "ISO/ASTM 52911",
+    "section": "6.2",
+    "title": "Material Process Specification and Quality Assurance Clause 41",
+    "text": "Standard quality control guidelines for batch #41 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-042",
+    "standard": "ISO/ASTM 52912",
+    "section": "7.3",
+    "title": "Material Process Specification and Quality Assurance Clause 42",
+    "text": "Standard quality control guidelines for batch #42 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-043",
+    "standard": "ISO/ASTM 52913",
+    "section": "8.4",
+    "title": "Material Process Specification and Quality Assurance Clause 43",
+    "text": "Standard quality control guidelines for batch #43 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-044",
+    "standard": "ISO/ASTM 52914",
+    "section": "9.5",
+    "title": "Material Process Specification and Quality Assurance Clause 44",
+    "text": "Standard quality control guidelines for batch #44 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-045",
+    "standard": "ISO/ASTM 52915",
+    "section": "1.1",
+    "title": "Material Process Specification and Quality Assurance Clause 45",
+    "text": "Standard quality control guidelines for batch #45 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-046",
+    "standard": "ISO/ASTM 52916",
+    "section": "2.2",
+    "title": "Material Process Specification and Quality Assurance Clause 46",
+    "text": "Standard quality control guidelines for batch #46 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-047",
+    "standard": "ISO/ASTM 52917",
+    "section": "3.3",
+    "title": "Material Process Specification and Quality Assurance Clause 47",
+    "text": "Standard quality control guidelines for batch #47 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-048",
+    "standard": "ISO/ASTM 52918",
+    "section": "4.4",
+    "title": "Material Process Specification and Quality Assurance Clause 48",
+    "text": "Standard quality control guidelines for batch #48 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-049",
+    "standard": "ISO/ASTM 52919",
+    "section": "5.5",
+    "title": "Material Process Specification and Quality Assurance Clause 49",
+    "text": "Standard quality control guidelines for batch #49 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-050",
+    "standard": "ISO/ASTM 52920",
+    "section": "6.1",
+    "title": "Material Process Specification and Quality Assurance Clause 50",
+    "text": "Standard quality control guidelines for batch #50 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-051",
+    "standard": "ISO/ASTM 52921",
+    "section": "7.2",
+    "title": "Material Process Specification and Quality Assurance Clause 51",
+    "text": "Standard quality control guidelines for batch #51 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-052",
+    "standard": "ISO/ASTM 52922",
+    "section": "8.3",
+    "title": "Material Process Specification and Quality Assurance Clause 52",
+    "text": "Standard quality control guidelines for batch #52 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-053",
+    "standard": "ISO/ASTM 52923",
+    "section": "9.4",
+    "title": "Material Process Specification and Quality Assurance Clause 53",
+    "text": "Standard quality control guidelines for batch #53 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-054",
+    "standard": "ISO/ASTM 52924",
+    "section": "1.5",
+    "title": "Material Process Specification and Quality Assurance Clause 54",
+    "text": "Standard quality control guidelines for batch #54 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-055",
+    "standard": "ISO/ASTM 52925",
+    "section": "2.1",
+    "title": "Material Process Specification and Quality Assurance Clause 55",
+    "text": "Standard quality control guidelines for batch #55 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-056",
+    "standard": "ISO/ASTM 52926",
+    "section": "3.2",
+    "title": "Material Process Specification and Quality Assurance Clause 56",
+    "text": "Standard quality control guidelines for batch #56 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-057",
+    "standard": "ISO/ASTM 52927",
+    "section": "4.3",
+    "title": "Material Process Specification and Quality Assurance Clause 57",
+    "text": "Standard quality control guidelines for batch #57 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-058",
+    "standard": "ISO/ASTM 52928",
+    "section": "5.4",
+    "title": "Material Process Specification and Quality Assurance Clause 58",
+    "text": "Standard quality control guidelines for batch #58 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-059",
+    "standard": "ISO/ASTM 52929",
+    "section": "6.5",
+    "title": "Material Process Specification and Quality Assurance Clause 59",
+    "text": "Standard quality control guidelines for batch #59 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-060",
+    "standard": "ISO/ASTM 52900",
+    "section": "7.1",
+    "title": "Material Process Specification and Quality Assurance Clause 60",
+    "text": "Standard quality control guidelines for batch #60 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-061",
+    "standard": "ISO/ASTM 52901",
+    "section": "8.2",
+    "title": "Material Process Specification and Quality Assurance Clause 61",
+    "text": "Standard quality control guidelines for batch #61 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-062",
+    "standard": "ISO/ASTM 52902",
+    "section": "9.3",
+    "title": "Material Process Specification and Quality Assurance Clause 62",
+    "text": "Standard quality control guidelines for batch #62 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-063",
+    "standard": "ISO/ASTM 52903",
+    "section": "1.4",
+    "title": "Material Process Specification and Quality Assurance Clause 63",
+    "text": "Standard quality control guidelines for batch #63 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-064",
+    "standard": "ISO/ASTM 52904",
+    "section": "2.5",
+    "title": "Material Process Specification and Quality Assurance Clause 64",
+    "text": "Standard quality control guidelines for batch #64 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-065",
+    "standard": "ISO/ASTM 52905",
+    "section": "3.1",
+    "title": "Material Process Specification and Quality Assurance Clause 65",
+    "text": "Standard quality control guidelines for batch #65 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-066",
+    "standard": "ISO/ASTM 52906",
+    "section": "4.2",
+    "title": "Material Process Specification and Quality Assurance Clause 66",
+    "text": "Standard quality control guidelines for batch #66 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-067",
+    "standard": "ISO/ASTM 52907",
+    "section": "5.3",
+    "title": "Material Process Specification and Quality Assurance Clause 67",
+    "text": "Standard quality control guidelines for batch #67 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-068",
+    "standard": "ISO/ASTM 52908",
+    "section": "6.4",
+    "title": "Material Process Specification and Quality Assurance Clause 68",
+    "text": "Standard quality control guidelines for batch #68 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-069",
+    "standard": "ISO/ASTM 52909",
+    "section": "7.5",
+    "title": "Material Process Specification and Quality Assurance Clause 69",
+    "text": "Standard quality control guidelines for batch #69 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-070",
+    "standard": "ISO/ASTM 52910",
+    "section": "8.1",
+    "title": "Material Process Specification and Quality Assurance Clause 70",
+    "text": "Standard quality control guidelines for batch #70 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-071",
+    "standard": "ISO/ASTM 52911",
+    "section": "9.2",
+    "title": "Material Process Specification and Quality Assurance Clause 71",
+    "text": "Standard quality control guidelines for batch #71 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-072",
+    "standard": "ISO/ASTM 52912",
+    "section": "1.3",
+    "title": "Material Process Specification and Quality Assurance Clause 72",
+    "text": "Standard quality control guidelines for batch #72 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-073",
+    "standard": "ISO/ASTM 52913",
+    "section": "2.4",
+    "title": "Material Process Specification and Quality Assurance Clause 73",
+    "text": "Standard quality control guidelines for batch #73 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-074",
+    "standard": "ISO/ASTM 52914",
+    "section": "3.5",
+    "title": "Material Process Specification and Quality Assurance Clause 74",
+    "text": "Standard quality control guidelines for batch #74 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-075",
+    "standard": "ISO/ASTM 52915",
+    "section": "4.1",
+    "title": "Material Process Specification and Quality Assurance Clause 75",
+    "text": "Standard quality control guidelines for batch #75 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-076",
+    "standard": "ISO/ASTM 52916",
+    "section": "5.2",
+    "title": "Material Process Specification and Quality Assurance Clause 76",
+    "text": "Standard quality control guidelines for batch #76 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-077",
+    "standard": "ISO/ASTM 52917",
+    "section": "6.3",
+    "title": "Material Process Specification and Quality Assurance Clause 77",
+    "text": "Standard quality control guidelines for batch #77 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-078",
+    "standard": "ISO/ASTM 52918",
+    "section": "7.4",
+    "title": "Material Process Specification and Quality Assurance Clause 78",
+    "text": "Standard quality control guidelines for batch #78 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-079",
+    "standard": "ISO/ASTM 52919",
+    "section": "8.5",
+    "title": "Material Process Specification and Quality Assurance Clause 79",
+    "text": "Standard quality control guidelines for batch #79 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-080",
+    "standard": "ISO/ASTM 52920",
+    "section": "9.1",
+    "title": "Material Process Specification and Quality Assurance Clause 80",
+    "text": "Standard quality control guidelines for batch #80 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-081",
+    "standard": "ISO/ASTM 52921",
+    "section": "1.2",
+    "title": "Material Process Specification and Quality Assurance Clause 81",
+    "text": "Standard quality control guidelines for batch #81 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-082",
+    "standard": "ISO/ASTM 52922",
+    "section": "2.3",
+    "title": "Material Process Specification and Quality Assurance Clause 82",
+    "text": "Standard quality control guidelines for batch #82 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-083",
+    "standard": "ISO/ASTM 52923",
+    "section": "3.4",
+    "title": "Material Process Specification and Quality Assurance Clause 83",
+    "text": "Standard quality control guidelines for batch #83 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-084",
+    "standard": "ISO/ASTM 52924",
+    "section": "4.5",
+    "title": "Material Process Specification and Quality Assurance Clause 84",
+    "text": "Standard quality control guidelines for batch #84 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-085",
+    "standard": "ISO/ASTM 52925",
+    "section": "5.1",
+    "title": "Material Process Specification and Quality Assurance Clause 85",
+    "text": "Standard quality control guidelines for batch #85 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-086",
+    "standard": "ISO/ASTM 52926",
+    "section": "6.2",
+    "title": "Material Process Specification and Quality Assurance Clause 86",
+    "text": "Standard quality control guidelines for batch #86 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-087",
+    "standard": "ISO/ASTM 52927",
+    "section": "7.3",
+    "title": "Material Process Specification and Quality Assurance Clause 87",
+    "text": "Standard quality control guidelines for batch #87 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-088",
+    "standard": "ISO/ASTM 52928",
+    "section": "8.4",
+    "title": "Material Process Specification and Quality Assurance Clause 88",
+    "text": "Standard quality control guidelines for batch #88 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-089",
+    "standard": "ISO/ASTM 52929",
+    "section": "9.5",
+    "title": "Material Process Specification and Quality Assurance Clause 89",
+    "text": "Standard quality control guidelines for batch #89 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-090",
+    "standard": "ISO/ASTM 52900",
+    "section": "1.1",
+    "title": "Material Process Specification and Quality Assurance Clause 90",
+    "text": "Standard quality control guidelines for batch #90 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-091",
+    "standard": "ISO/ASTM 52901",
+    "section": "2.2",
+    "title": "Material Process Specification and Quality Assurance Clause 91",
+    "text": "Standard quality control guidelines for batch #91 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-092",
+    "standard": "ISO/ASTM 52902",
+    "section": "3.3",
+    "title": "Material Process Specification and Quality Assurance Clause 92",
+    "text": "Standard quality control guidelines for batch #92 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-093",
+    "standard": "ISO/ASTM 52903",
+    "section": "4.4",
+    "title": "Material Process Specification and Quality Assurance Clause 93",
+    "text": "Standard quality control guidelines for batch #93 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-094",
+    "standard": "ISO/ASTM 52904",
+    "section": "5.5",
+    "title": "Material Process Specification and Quality Assurance Clause 94",
+    "text": "Standard quality control guidelines for batch #94 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-095",
+    "standard": "ISO/ASTM 52905",
+    "section": "6.1",
+    "title": "Material Process Specification and Quality Assurance Clause 95",
+    "text": "Standard quality control guidelines for batch #95 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-096",
+    "standard": "ISO/ASTM 52906",
+    "section": "7.2",
+    "title": "Material Process Specification and Quality Assurance Clause 96",
+    "text": "Standard quality control guidelines for batch #96 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-097",
+    "standard": "ISO/ASTM 52907",
+    "section": "8.3",
+    "title": "Material Process Specification and Quality Assurance Clause 97",
+    "text": "Standard quality control guidelines for batch #97 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-098",
+    "standard": "ISO/ASTM 52908",
+    "section": "9.4",
+    "title": "Material Process Specification and Quality Assurance Clause 98",
+    "text": "Standard quality control guidelines for batch #98 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-099",
+    "standard": "ISO/ASTM 52909",
+    "section": "1.5",
+    "title": "Material Process Specification and Quality Assurance Clause 99",
+    "text": "Standard quality control guidelines for batch #99 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  },
+  {
+    "doc_id": "STD-MAT-INF-100",
+    "standard": "ISO/ASTM 52910",
+    "section": "2.1",
+    "title": "Material Process Specification and Quality Assurance Clause 100",
+    "text": "Standard quality control guidelines for batch #100 require full traceability of grain-structure simulation metadata, powder particle size distribution (15-45 um), and signed smart-contract license bounds."
+  }
+]
